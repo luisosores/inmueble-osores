@@ -1,12 +1,14 @@
 *{
     margin:0;
-    font-family: "mifuete";
 }
 @font-face {
     font-family: miFuente;
-    src: url(../fonts/MontserratAlternates-SemiBold.ttf);
+    src: url(/fonts/MontserratAlternates-SemiBold.ttf);
 }
 /*                                                  CSS HEADER                                          */
+body{
+    font-family: "mifuente";
+}
 #header{
     position: absolute;
     z-index: 10;
@@ -120,9 +122,7 @@
 }
 .titulo{
     animation-name: tituloDesplazamiento;
-}
-.titulo{
-    font-size: 2em;
+    font-size: 2.5em;
 }
 .caja2{
     width: 70%;
